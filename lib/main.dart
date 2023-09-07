@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shamoshoes/pages/home/main_page.dart';
 import 'package:shamoshoes/pages/sign_in_page.dart';
+import 'package:shamoshoes/pages/sign_up_page.dart';
 import 'package:shamoshoes/pages/splash_page.dart';
 import 'package:shamoshoes/theme.dart';
 
@@ -17,6 +19,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashPage(),
         '/sign-in':(context) => SignInPage(),
+        '/sign-up':(context) => SignUpPage(),
+        '/home':(context) => MainPage(),
       },
     );
   }
